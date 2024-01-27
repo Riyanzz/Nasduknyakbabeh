@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Delicious Bites</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <h1>Delicious Bites</h1>
+      <p>Explore a world of culinary delights.</p>
+    </div>
+  </header>
+
+  <section id="menu" class="container">
+    <div class="food-item">
+      <img src="burger.jpg" alt="Burger">
+      <div class="overlay">
+        <h3>Classic Burger</h3>
+        <p>A juicy beef patty with fresh vegetables.</p>
+        <span class="price">$10.99</span>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+    </div>
+
+    <div class="food-item">
+      <img src="pizza.jpg" alt="Pizza">
+      <div class="overlay">
+        <h3>Margherita Pizza</h3>
+        <p>Traditional pizza with tomato, mozzarella, and basil.</p>
+        <span class="price">$12.99</span>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+    </div>
+
+    <!-- Add more food items as needed -->
+
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 Delicious Bites. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
